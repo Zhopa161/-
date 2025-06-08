@@ -1,0 +1,64 @@
+.root {
+    -fx-padding: 20;
+    -fx-background-color: #f5f5f5;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.book-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.book-author {
+    -fx-font-size: 16px;
+    -fx-text-fill: #555;
+}
+
+.book-price {
+    -fx-font-size: 18px;
+    -fx-text-fill: #e74c3c;
+    -fx-font-weight: bold;
+}
+
+.buy-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.buy-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.status-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #27ae60;
+    -fx-font-weight: bold;
+}
+
+/* Стили для Spinner */
+.spinner {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 0;
+}
+
+.spinner .increment-arrow,
+.spinner .decrement-arrow {
+    -fx-background-color: white;
+}
